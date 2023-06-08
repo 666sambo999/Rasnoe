@@ -184,9 +184,9 @@ public:
 	//				Removing elements:
 	void pop_front()
 	{
-		Element<T>* Erased = Head;	//1) Çàïîìèíàåì àäðåñ óäàëÿåìîãî ýëåìåíòà
-		Head = Head->pNext;		//2) Èñêëþ÷àåì óäàëÿåìûé ýëåìåíò èç ñïèñêà
-		delete Erased;			//3) Óäàëÿåì ýëåìåíò èç ïàìÿòè
+		Element<T>* Erased = Head;	
+		Head = Head->pNext;		
+		delete Erased;			
 		size--;
 	}
 	void pop_back()
@@ -355,6 +355,6 @@ void main()
 	ForwardList<std::string> s_list_1 = { "Хорошо","живет","на","свете" };
 	ForwardList<std::string> s_list_2 = { "Винни","Пух" };
 	ForwardList<std::string> s_list_3 = s_list_1 + s_list_2;
-	for (std::string i : s_list_3)cout << i << tab; cout << endl;
+	for (std::string i : s_list_3)cout << i << " "; cout << endl;
 
 }
