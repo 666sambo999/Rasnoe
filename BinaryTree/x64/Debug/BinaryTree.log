@@ -1,1 +1,3 @@
-﻿  BinaryTree.vcxproj -> C:\Users\User\source\repos\Rasnoe\x64\Debug\BinaryTree.exe
+﻿  main.cpp
+C:\Users\User\source\repos\Rasnoe\BinaryTree\main.cpp(306,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BinaryTree.vcxproj -> C:\Users\User\source\repos\Rasnoe\x64\Debug\BinaryTree.exe

@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\User\source\repos\Rasnoe\STL\main.cpp(12,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
